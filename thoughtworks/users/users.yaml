@@ -8,3 +8,15 @@ metadata:
     picture: 
 spec:
   memberOf: [thoughtworks, awesome-project]
+  
+  ---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: sahana.nagaraja
+  profile:
+    displayName: Sahana N
+    email: myemail@thoughtworks.com
+    picture: 
+spec:
+  memberOf: [thoughtworks, awesome-pet]
